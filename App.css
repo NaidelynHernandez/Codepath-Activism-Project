@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.Logo {
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
+
+.Logo {
+  animation: 
+  typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+  border-right: .15em solid rgb(74, 33, 98); 
+  letter-spacing: .02em; 
+  margin: 0 auto; 
+  overflow: hidden;
+  white-space: nowrap; 
+  font-size: 90px;
+}
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    100% { border-color: rgb(26, 28, 36); }
+  }
+
+
+  .homepageContainers {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  
+  .PageWrapper {
+    align-items: center; 
+    background-color: brown;
+    filter: sepia(); 
+    max-width: 40%; 
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    opacity: 0.85;
+    padding:3vh;
+  }
+  
+  .PageWrapper2 {
+    filter: sepia(); 
+    background-color: #ddd; 
+    max-width: 60%; 
+    height: 100vh;
+    opacity: 0.4;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+ 
+  }
+  
+.homepage img{
+  height: 450px;
+  line-height:0;
+  width: 350px;
+}
+
+.FormElement {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.FormElement button{
+  border-radius: 25px; 
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 5px 5px;
+  width:150px;
+}
+.FormElement input{
+  background-color: #292a2d5b;
+  border-radius: 5px;
+  max-width: 200px;
+  padding: 5px 10px; 
+}
+
+.FormElement label{
+  font-size: 15px;
+  margin-top: 4vh;
+}
+
+
+
+
+
+/*  SEPARATION  */
+
+
+.UserProfilePage{
+  display: flex;
+  justify-content: center;
+}
+.createPostPage{ 
+  background-color: rgb(80, 88, 69);
+  display: flex;
+  justify-content: center;
+  width:50vw;
+}
+
+.inputN{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+}
+
+.inputN button{
+  border-radius: 22px;
+  margin-top: 2vh;
+}
+/*
+
+
+
+
+
+/* 
+
+.b{
+  min-height: 20vh;
+}
+
+.p {
+  height: 300px;
+  margin-top: 10px;
+  width: 220px;  
+}
+
+
+
+.spacecontainer{
+  columns: row;
+  display: flex;
+  justify-content: center;
+}
+
+.options{
+  text-align: center;
+}
+
+.files{
+  font-size: 15px;
+  transition-duration: 0.4s;
+  width: 20vw; 
+}
+
+.files:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+.options h1{
+  font-size: 100px;
+}
+
+
+
+.NContainer{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   padding:90px;   
+}
+
+.createPostPage{
+  border-radius: 30px;
+  display:flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 30vw;
+}
+
+input{
+  height: 4vh;
+  border-radius:10px;
+}
+
+textarea{
+  height: 20vh;
+  margin-top: 20px;
+  
+}
+
+.Cbutton {
+  height: 4vh;
+  width:10vw;
+  padding: 10px;
+}
+  */
